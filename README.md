@@ -39,9 +39,11 @@ To use the sketch:
    Query command server:52.77.236.179:443
    connect result = 1
    ~~~
+
    This means the board has connected to the MCS command server and listens for commands.
  * You can use the [MCS console](https://mcs.mediatek.com/v2console/) to control the ON/OFF of the on-board LED(D13)
     * You should see logs of the command sent from MCS to the board, and The board will then upload the LED status back to MCS to update the `LED Display` channel with logs like this:
+    
     ~~~
     LED_Control,0Switch LED OFF
     POST result:Success.
